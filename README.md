@@ -1,1 +1,2 @@
 # Run_Length_Coding
+Markov-1 sources can output long sub-sequences of 0s and/or 1s. Run-length coding schemes have been adapted to handle this situation. General run-length coding schemes map any input sequence of symbols from a finite alphabet to a sequence of symbol pairs, representing symbol values and run-lengths. In the case of binary sources, 0 and 1 runs will alternate and the transmission of symbol values is not necessary for each run. It is sufficient to indicate whether the input sequence starts with a 0 or a 1.
